@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.block {
+    width: 900px;
+    height: 500px;
+    background-color: #1da1f3;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.block .name{
+    color:#fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size:65px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.start{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(23, 198, 40);
+    font-size: 30px;
+    font-weight: 700;
+    border-radius:10px;
+    color:rgb(47, 44, 44);
+    padding-top: 10px;
+    cursor:pointer;
+    transition: 0.5s;
+}
+
+.start:hover{
+    width: 240px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+.question{
+    margin-top: 50px;
+    color: #fff;
+    font-size:50px;
+}
+
+.answers {
+    width: 900px;
+    margin: 0 auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.true {
+    display: inline-block;
+    width: 370px;
+    height: 70px;
+    background-color: rgb(23, 198, 40);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
+    color:aliceblue;
+    font-size:40px;
+    font-weight:700;
+    transition: 0.5s;
+}
+
+.true:hover{
+    padding: 12px 0;
+    width: 400px;
+    height: 80px;
+}
+
+.false{
+    display: inline-block;
+    width: 370px;
+    height: 70px;
+    background-color: rgb(203, 7, 7);
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 0;
+    color:aliceblue;
+    font-size:40px;
+    font-weight:700;
+    transition: 0.5s;
+}
+
+.false:hover{
+    padding: 12px 0;
+    width: 400px;
+    height: 80px;
+}
+
+.hide{
+    display:none;
+}
+
+.timer {
+    display: inline-block;
+    margin-top: 110px;
+    margin-left: 120px;
+    font-size:30px;
+    font-weight: 600;
+    color:#fff;
+}
+
+.time{
+    display: inline-block;
+}
+
+.result-answers{
+    display: inline-block;
+    margin-left:180px;
+    font-size:30px;
+    font-weight: 600;
+    color:#fff
+}
+
+.num{
+    display: inline-block;
+}
+
+.next{
+    width: 240px;
+    border-radius:10px;
+    text-align: center;
+    padding: 20px 0;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background-color: rgb(46, 45, 45);
+    color:#fff;
+    font-size: 20px;
+    cursor:pointer;
+}
